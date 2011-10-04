@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, GroupsActivity!</string>
+    <string name="app_name">GroupMessage</string>
+    <string name="groups">Groups</string>
+    <string name="add">Add</string>
+    <string name="addFromMenu">Add a new group from the [menu].</string>
+    <string name="edit_group">Edit Group</string>
+    <string name="group_name_required_hint">Group Name Required</string>
+    <string name="addContactFromMenu">Add a contact from the [menu].</string>
+    <string name="remove_from_group">Remove contact from group</string>
+    <string name="remove_group">Remove group</string>
+    <string name="acceptName">Accept Name</string>
+    <string name="send_message">Send Message</string>
+    <string name="message_body">Message Body</string>
+    <string name="no_contacts_in_group">No Contacts</string>
+    <string name="add_contacts_first">Please add contacts to the group before attempting to send a message.</string>
+    <string name="ok">OK</string>
+</resources>

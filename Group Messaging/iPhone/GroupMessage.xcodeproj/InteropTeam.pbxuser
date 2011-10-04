@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	5CB9E05E13F31494002FFE67 /* Group.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 494}}";
+			sepNavSelRange = "{591, 0}";
+			sepNavVisRange = "{0, 1059}";
+		};
+	};
+	5CB9E05F13F31494002FFE67 /* Group.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 533}}";
+			sepNavSelRange = "{591, 0}";
+			sepNavVisRange = "{0, 1084}";
+		};
+	};
+	5CB9E06213F31495002FFE67 /* Member.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 475}}";
+			sepNavSelRange = "{591, 0}";
+			sepNavVisRange = "{0, 859}";
+		};
+	};
+	5CB9E06313F31495002FFE67 /* Member.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 475}}";
+			sepNavSelRange = "{591, 0}";
+			sepNavVisRange = "{0, 753}";
+		};
+	};
+	5CBE393313E9DB7E0028C5DE /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 85477E641434EF1B00DA400B /* GroupMessage */;
+		activeTarget = 5CBE393B13E9DB7E0028C5DE /* GroupMessage */;
+		codeSenseManager = 85477E711434EF3D00DA400B /* Code sense */;
+		executables = (
+			85477E641434EF1B00DA400B /* GroupMessage */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					993,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 339013403;
+			PBXWorkspaceStateSaveDate = 339013403;
+		};
+		perUserProjectItems = {
+			85477E761434EFA700DA400B /* PBXTextBookmark */ = 85477E761434EFA700DA400B /* PBXTextBookmark */;
+			85477E771434EFA700DA400B /* PBXTextBookmark */ = 85477E771434EFA700DA400B /* PBXTextBookmark */;
+			85477E781434EFA700DA400B /* PBXTextBookmark */ = 85477E781434EFA700DA400B /* PBXTextBookmark */;
+			85477E791434EFA700DA400B /* PBXTextBookmark */ = 85477E791434EFA700DA400B /* PBXTextBookmark */;
+			85477E7A1434EFA700DA400B /* PBXTextBookmark */ = 85477E7A1434EFA700DA400B /* PBXTextBookmark */;
+			85477E7B1434EFA700DA400B /* PBXTextBookmark */ = 85477E7B1434EFA700DA400B /* PBXTextBookmark */;
+			85477E7C1434EFA700DA400B /* PBXTextBookmark */ = 85477E7C1434EFA700DA400B /* PBXTextBookmark */;
+			85477E7D1434EFA700DA400B /* PBXTextBookmark */ = 85477E7D1434EFA700DA400B /* PBXTextBookmark */;
+			85477E7E1434EFA700DA400B /* PBXTextBookmark */ = 85477E7E1434EFA700DA400B /* PBXTextBookmark */;
+			85477E7F1434EFA700DA400B /* PBXTextBookmark */ = 85477E7F1434EFA700DA400B /* PBXTextBookmark */;
+			85477E801434EFA700DA400B /* PBXTextBookmark */ = 85477E801434EFA700DA400B /* PBXTextBookmark */;
+			85477E811434EFA700DA400B /* PBXTextBookmark */ = 85477E811434EFA700DA400B /* PBXTextBookmark */;
+			85477E821434EFA700DA400B /* PBXTextBookmark */ = 85477E821434EFA700DA400B /* PBXTextBookmark */;
+		};
+		sourceControlManager = 85477E701434EF3D00DA400B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	5CBE393B13E9DB7E0028C5DE /* GroupMessage */ = {
+		activeExec = 0;
+		executables = (
+			85477E641434EF1B00DA400B /* GroupMessage */,
+		);
+	};
+	5CBE394E13E9DB7E0028C5DE /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 475}}";
+			sepNavSelRange = "{591, 0}";
+			sepNavVisRange = "{0, 802}";
+		};
+	};
+	5CBE395013E9DB7E0028C5DE /* GroupMessage-Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 475}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 364}";
+		};
+	};
+	5CBE395113E9DB7E0028C5DE /* GroupMessageAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 475}}";
+			sepNavSelRange = "{578, 0}";
+			sepNavVisRange = "{0, 1155}";
+		};
+	};
+	5CBE395213E9DB7E0028C5DE /* GroupMessageAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 2600}}";
+			sepNavSelRange = "{591, 0}";
+			sepNavVisRange = "{0, 1331}";
+		};
+	};
+	5CBE395A13E9DB7E0028C5DE /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 475}}";
+			sepNavSelRange = "{591, 0}";
+			sepNavVisRange = "{0, 965}";
+		};
+	};
+	5CBE395B13E9DB7E0028C5DE /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 3978}}";
+			sepNavSelRange = "{591, 0}";
+			sepNavVisRange = "{0, 1325}";
+		};
+	};
+	5CFB3E2913F2A32A0093A639 /* GroupDetailViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 507}}";
+			sepNavSelRange = "{591, 0}";
+			sepNavVisRange = "{0, 1220}";
+		};
+	};
+	5CFB3E2A13F2A32A0093A639 /* GroupDetailViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 5642}}";
+			sepNavSelRange = "{591, 0}";
+			sepNavVisRange = "{0, 1109}";
+		};
+	};
+	85477E641434EF1B00DA400B /* GroupMessage */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = GroupMessage;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	85477E701434EF3D00DA400B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	85477E711434EF3D00DA400B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	85477E761434EFA700DA400B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5CBE394E13E9DB7E0028C5DE /* main.m */;
+		name = "main.m: 17";
+		rLen = 0;
+		rLoc = 591;
+		rType = 0;
+		vrLen = 802;
+		vrLoc = 0;
+	};
+	85477E771434EFA700DA400B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5CB9E05F13F31494002FFE67 /* Group.m */;
+		name = "Group.m: 17";
+		rLen = 0;
+		rLoc = 591;
+		rType = 0;
+		vrLen = 1084;
+		vrLoc = 0;
+	};
+	85477E781434EFA700DA400B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5CB9E06313F31495002FFE67 /* Member.m */;
+		name = "Member.m: 17";
+		rLen = 0;
+		rLoc = 591;
+		rType = 0;
+		vrLen = 753;
+		vrLoc = 0;
+	};
+	85477E791434EFA700DA400B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5CFB3E2A13F2A32A0093A639 /* GroupDetailViewController.m */;
+		name = "GroupDetailViewController.m: 17";
+		rLen = 0;
+		rLoc = 591;
+		rType = 0;
+		vrLen = 1109;
+		vrLoc = 0;
+	};
+	85477E7A1434EFA700DA400B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5CBE395B13E9DB7E0028C5DE /* RootViewController.m */;
+		name = "RootViewController.m: 17";
+		rLen = 0;
+		rLoc = 591;
+		rType = 0;
+		vrLen = 1325;
+		vrLoc = 0;
+	};
+	85477E7B1434EFA700DA400B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5CBE395213E9DB7E0028C5DE /* GroupMessageAppDelegate.m */;
+		name = "GroupMessageAppDelegate.m: 17";
+		rLen = 0;
+		rLoc = 591;
+		rType = 0;
+		vrLen = 1331;
+		vrLoc = 0;
+	};
+	85477E7C1434EFA700DA400B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5CBE395013E9DB7E0028C5DE /* GroupMessage-Prefix.pch */;
+		name = "GroupMessage-Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 364;
+		vrLoc = 0;
+	};
+	85477E7D1434EFA700DA400B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5CB9E05E13F31494002FFE67 /* Group.h */;
+		name = "Group.h: 17";
+		rLen = 0;
+		rLoc = 591;
+		rType = 0;
+		vrLen = 1059;
+		vrLoc = 0;
+	};
+	85477E7E1434EFA700DA400B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5CB9E06213F31495002FFE67 /* Member.h */;
+		name = "Member.h: 17";
+		rLen = 0;
+		rLoc = 591;
+		rType = 0;
+		vrLen = 859;
+		vrLoc = 0;
+	};
+	85477E7F1434EFA700DA400B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5CFB3E2913F2A32A0093A639 /* GroupDetailViewController.h */;
+		name = "GroupDetailViewController.h: 17";
+		rLen = 0;
+		rLoc = 591;
+		rType = 0;
+		vrLen = 1220;
+		vrLoc = 0;
+	};
+	85477E801434EFA700DA400B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5CBE395A13E9DB7E0028C5DE /* RootViewController.h */;
+		name = "RootViewController.h: 17";
+		rLen = 0;
+		rLoc = 591;
+		rType = 0;
+		vrLen = 965;
+		vrLoc = 0;
+	};
+	85477E811434EFA700DA400B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5CBE395113E9DB7E0028C5DE /* GroupMessageAppDelegate.h */;
+		name = "GroupMessageAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 630;
+		vrLoc = 0;
+	};
+	85477E821434EFA700DA400B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5CBE395113E9DB7E0028C5DE /* GroupMessageAppDelegate.h */;
+		name = "GroupMessageAppDelegate.h: 16";
+		rLen = 0;
+		rLoc = 578;
+		rType = 0;
+		vrLen = 1155;
+		vrLoc = 0;
+	};
+}

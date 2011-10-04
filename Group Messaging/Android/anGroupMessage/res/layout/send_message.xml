@@ -1,0 +1,37 @@
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@color/black">
+	<TextView
+		android:id="@+id/sendMessageLabel"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="@string/send_message"
+		android:background="@drawable/title_bar"
+		android:padding="5dip"
+		style="@style/TitleBar" />
+	<Button
+		android:id="@+id/executeSend"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/send_message"
+		android:layout_alignParentBottom="true"
+		android:background="@drawable/send_button"
+		style="@style/SendButton"
+		/>
+		
+	<EditText
+		android:id="@+id/messageBodyField"
+		android:inputType="textLongMessage"
+		android:gravity="top|left"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:hint="@string/message_body"
+		android:layout_below="@id/sendMessageLabel"
+		android:layout_above="@id/executeSend"
+		
+	/>
+	
+</RelativeLayout>

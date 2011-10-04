@@ -1,0 +1,15 @@
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GeoLocation\GeoLocation\Bin\Debug\ApplicationIcon.png
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GeoLocation\GeoLocation\Bin\Debug\Background.png
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GeoLocation\GeoLocation\Bin\Debug\GeoLocation.dll
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GeoLocation\GeoLocation\Bin\Debug\GeoLocation.pdb
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GeoLocation\GeoLocation\Bin\Debug\AppManifest.xaml
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GeoLocation\GeoLocation\Bin\Debug\GeoLocation.xap
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GeoLocation\GeoLocation\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GeoLocation\GeoLocation\Bin\Debug\Microsoft.Phone.Controls.Maps.xml
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GeoLocation\GeoLocation\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GeoLocation\GeoLocation\obj\Debug\App.g.i.cs
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GeoLocation\GeoLocation\obj\Debug\MainPage.g.i.cs
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GeoLocation\GeoLocation\obj\Debug\GeoLocation.g.resources
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GeoLocation\GeoLocation\obj\Debug\GeoLocation.dll
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GeoLocation\GeoLocation\obj\Debug\GeoLocation.pdb
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GeoLocation\GeoLocation\obj\Debug\XapCacheFile.xml

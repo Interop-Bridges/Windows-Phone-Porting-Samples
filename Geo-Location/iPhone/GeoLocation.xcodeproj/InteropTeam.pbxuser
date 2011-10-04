@@ -1,0 +1,191 @@
+// !$*UTF8*$!
+{
+	1E5518F813F4468C00E13DC5 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 85477E401434EEBD00DA400B /* GeoLocation */;
+		activeTarget = 1E55190013F4468C00E13DC5 /* GeoLocation */;
+		codeSenseManager = 85477E511434EEDD00DA400B /* Code sense */;
+		executables = (
+			85477E401434EEBD00DA400B /* GeoLocation */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					993,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 339013309;
+			PBXWorkspaceStateSaveDate = 339013309;
+		};
+		perUserProjectItems = {
+			85477E561434EF1400DA400B /* PBXTextBookmark */ = 85477E561434EF1400DA400B /* PBXTextBookmark */;
+			85477E571434EF1400DA400B /* PBXTextBookmark */ = 85477E571434EF1400DA400B /* PBXTextBookmark */;
+			85477E581434EF1400DA400B /* PBXTextBookmark */ = 85477E581434EF1400DA400B /* PBXTextBookmark */;
+			85477E591434EF1400DA400B /* PBXTextBookmark */ = 85477E591434EF1400DA400B /* PBXTextBookmark */;
+			85477E5A1434EF1400DA400B /* PBXTextBookmark */ = 85477E5A1434EF1400DA400B /* PBXTextBookmark */;
+			85477E5B1434EF1400DA400B /* PBXTextBookmark */ = 85477E5B1434EF1400DA400B /* PBXTextBookmark */;
+		};
+		sourceControlManager = 85477E501434EEDD00DA400B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	1E55190013F4468C00E13DC5 /* GeoLocation */ = {
+		activeExec = 0;
+		executables = (
+			85477E401434EEBD00DA400B /* GeoLocation */,
+		);
+	};
+	1E55191213F4468C00E13DC5 /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 475}}";
+			sepNavSelRange = "{591, 0}";
+			sepNavVisRange = "{0, 790}";
+		};
+	};
+	1E55191413F4468C00E13DC5 /* GeoLocationAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 475}}";
+			sepNavSelRange = "{591, 0}";
+			sepNavVisRange = "{0, 717}";
+		};
+	};
+	1E55191513F4468C00E13DC5 /* GeoLocationAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 520}}";
+			sepNavSelRange = "{591, 0}";
+			sepNavVisRange = "{0, 1150}";
+		};
+	};
+	1E55192713F4472100E13DC5 /* MapViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 475}}";
+			sepNavSelRange = "{591, 0}";
+			sepNavVisRange = "{0, 940}";
+		};
+	};
+	1E55192813F4472100E13DC5 /* MapViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1716}}";
+			sepNavSelRange = "{578, 0}";
+			sepNavVisRange = "{0, 1348}";
+		};
+	};
+	85477E401434EEBD00DA400B /* GeoLocation */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = GeoLocation;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	85477E501434EEDD00DA400B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	85477E511434EEDD00DA400B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	85477E561434EF1400DA400B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1E55191213F4468C00E13DC5 /* main.m */;
+		name = "main.m: 17";
+		rLen = 0;
+		rLoc = 591;
+		rType = 0;
+		vrLen = 790;
+		vrLoc = 0;
+	};
+	85477E571434EF1400DA400B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1E55191513F4468C00E13DC5 /* GeoLocationAppDelegate.m */;
+		name = "GeoLocationAppDelegate.m: 17";
+		rLen = 0;
+		rLoc = 591;
+		rType = 0;
+		vrLen = 1150;
+		vrLoc = 0;
+	};
+	85477E581434EF1400DA400B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1E55192813F4472100E13DC5 /* MapViewController.m */;
+		name = "MapViewController.m: 16";
+		rLen = 0;
+		rLoc = 578;
+		rType = 0;
+		vrLen = 1348;
+		vrLoc = 0;
+	};
+	85477E591434EF1400DA400B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1E55191413F4468C00E13DC5 /* GeoLocationAppDelegate.h */;
+		name = "GeoLocationAppDelegate.h: 17";
+		rLen = 0;
+		rLoc = 591;
+		rType = 0;
+		vrLen = 717;
+		vrLoc = 0;
+	};
+	85477E5A1434EF1400DA400B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1E55192713F4472100E13DC5 /* MapViewController.h */;
+		name = "MapViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 407;
+		vrLoc = 0;
+	};
+	85477E5B1434EF1400DA400B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1E55192713F4472100E13DC5 /* MapViewController.h */;
+		name = "MapViewController.h: 17";
+		rLen = 0;
+		rLoc = 591;
+		rType = 0;
+		vrLen = 940;
+		vrLoc = 0;
+	};
+}

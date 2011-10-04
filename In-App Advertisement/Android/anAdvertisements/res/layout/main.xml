@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res/com.microsoft.android.example.advertisements"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	<TextView  
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:layout_centerInParent="true" 
+	    android:text="Demo Application, AdMob Sample" />
+	<com.admob.android.ads.AdView 
+    	android:id="@+id/main_ad" 
+    	android:layout_alignParentBottom="true"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	myapp:backgroundColor="#000000" 
+    	myapp:primaryTextColor="#FFFFFF" 
+    	myapp:secondaryTextColor="#CCCCCC" />
+</RelativeLayout>

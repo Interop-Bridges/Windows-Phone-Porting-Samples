@@ -1,0 +1,36 @@
+
+Android Geo Location example app
+
+** Intro
+In order to get the proximity alarm to fire there must be a change in latitude
+and longitude from the user. In other words, it must come from a result of the
+LocationListener interface. That being said, you must send initial coordinates
+via DDMS to find your location, and then change it in order for the proximity
+alarm to sound. 
+
+** Instructions (emulator)
+- Send coordinates to the emulator via DDMS (see below).
+- Launch the app.
+- Drop a pin suitably close to your location.
+- Send coordinates that are slightly different.
+
+** Instructions (device)
+- Ensure not in airplane mode.
+- Launch app.
+- Drop pin.
+- Move around!
+
+** Sending mock coordinates via DDMS
+- In eclipse go Window -> Open Perspective -> DDMS -> emulator control -> location controls -> manual
+- Enter a latitude and longitude. (ie: 47.6741667 and -122.1202778) 
+- Hit send.
+
+** Obtain a debug Google Maps API key
+-Generate a debug MD5 fingerprint:
+http://code.google.com/android/add-ons/google-apis/mapkey.html#getdebugfingerprint
+
+-Generate an API key with that fingerprint:
+http://code.google.com/android/maps-api-signup.html
+
+-Once obtained, enter it into the MapView in main.xml. Located at root/res/layout/main.xml. 
+From there, enter in the api key in the android:apiKey="" attribute.

@@ -1,0 +1,71 @@
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@color/black">
+	<TextView
+		android:id="@+id/editGroupsLabel"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="@string/edit_group"
+		android:background="@drawable/title_bar"
+		android:padding="5dip"
+		style="@style/TitleBar" />
+	<Button
+		android:id="@+id/commit_name"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/acceptName"
+		android:layout_alignParentRight="true"
+		android:layout_below="@id/editGroupsLabel"
+		android:layout_marginRight="10dip"
+		android:layout_marginTop="10dip"
+		android:layout_marginBottom="10dip"
+		/>
+		
+	<EditText
+		android:id="@+id/groupNameField"
+		android:singleLine="true"
+		android:ellipsize="end"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:hint="@string/group_name_required_hint"
+		android:layout_below="@id/editGroupsLabel"
+		android:layout_toLeftOf="@+id/commit_name"
+		android:layout_marginTop="10dip"
+		android:layout_marginBottom="10dip"
+		android:layout_marginLeft="10dip"
+	/>
+	<ListView
+		android:id="@android:id/list"
+		android:fadingEdge="none"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_below="@id/groupNameField"
+		android:drawSelectorOnTop="false"
+		android:dividerHeight="1dip"
+		android:divider="@color/white"
+		android:cacheColorHint="@color/transparent"
+		android:background="@color/black"
+		android:visibility="invisible" />
+	<LinearLayout
+		android:id="@id/android:empty"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="@color/black"
+		android:gravity="center"
+		android:layout_below="@id/groupNameField"
+		android:orientation="horizontal">
+		<TextView
+			android:id="@+id/addContactButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/addContactFromMenu"
+			style="@style/EmptyList"
+			android:clickable="true"
+			android:background="@drawable/empty_list_button"
+			android:paddingLeft="20dip"
+			android:paddingRight="20dip" />
+	</LinearLayout>
+</RelativeLayout>

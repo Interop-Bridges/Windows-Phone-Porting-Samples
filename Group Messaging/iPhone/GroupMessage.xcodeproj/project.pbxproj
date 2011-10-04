@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C22F8E113F441ED000DA319 /* GroupMessage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C22F8DF13F441ED000DA319 /* GroupMessage.xcdatamodeld */; };
+		5CB9E06013F31494002FFE67 /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB9E05F13F31494002FFE67 /* Group.m */; };
+		5CB9E06413F31495002FFE67 /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB9E06313F31495002FFE67 /* Member.m */; };
+		5CBE394113E9DB7E0028C5DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CBE394013E9DB7E0028C5DE /* UIKit.framework */; };
+		5CBE394313E9DB7E0028C5DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CBE394213E9DB7E0028C5DE /* Foundation.framework */; };
+		5CBE394513E9DB7E0028C5DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CBE394413E9DB7E0028C5DE /* CoreGraphics.framework */; };
+		5CBE394713E9DB7E0028C5DE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CBE394613E9DB7E0028C5DE /* CoreData.framework */; };
+		5CBE394D13E9DB7E0028C5DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CBE394B13E9DB7E0028C5DE /* InfoPlist.strings */; };
+		5CBE394F13E9DB7E0028C5DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBE394E13E9DB7E0028C5DE /* main.m */; };
+		5CBE395313E9DB7E0028C5DE /* GroupMessageAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBE395213E9DB7E0028C5DE /* GroupMessageAppDelegate.m */; };
+		5CBE395913E9DB7E0028C5DE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CBE395713E9DB7E0028C5DE /* MainWindow.xib */; };
+		5CBE395C13E9DB7E0028C5DE /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBE395B13E9DB7E0028C5DE /* RootViewController.m */; };
+		5CBE395F13E9DB7E0028C5DE /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CBE395D13E9DB7E0028C5DE /* RootViewController.xib */; };
+		5CFB3E2C13F2A32A0093A639 /* GroupDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB3E2A13F2A32A0093A639 /* GroupDetailViewController.m */; };
+		5CFB3E2D13F2A32A0093A639 /* GroupDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CFB3E2B13F2A32A0093A639 /* GroupDetailViewController.xib */; };
+		5CFB3E3013F2AA9D0093A639 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFB3E2F13F2AA9D0093A639 /* AddressBookUI.framework */; };
+		5CFB3E3213F2B2300093A639 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFB3E3113F2B2300093A639 /* AddressBook.framework */; };
+		5CFB3E3413F2FEF90093A639 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFB3E3313F2FEF90093A639 /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C22F8E013F441ED000DA319 /* GroupMessage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GroupMessage.xcdatamodel; sourceTree = "<group>"; };
+		5CB9E05E13F31494002FFE67 /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		5CB9E05F13F31494002FFE67 /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group.m; sourceTree = "<group>"; };
+		5CB9E06213F31495002FFE67 /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
+		5CB9E06313F31495002FFE67 /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
+		5CBE393C13E9DB7E0028C5DE /* GroupMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CBE394013E9DB7E0028C5DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5CBE394213E9DB7E0028C5DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CBE394413E9DB7E0028C5DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5CBE394613E9DB7E0028C5DE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5CBE394A13E9DB7E0028C5DE /* GroupMessage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GroupMessage-Info.plist"; sourceTree = "<group>"; };
+		5CBE394C13E9DB7E0028C5DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CBE394E13E9DB7E0028C5DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CBE395013E9DB7E0028C5DE /* GroupMessage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GroupMessage-Prefix.pch"; sourceTree = "<group>"; };
+		5CBE395113E9DB7E0028C5DE /* GroupMessageAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupMessageAppDelegate.h; sourceTree = "<group>"; };
+		5CBE395213E9DB7E0028C5DE /* GroupMessageAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupMessageAppDelegate.m; sourceTree = "<group>"; };
+		5CBE395813E9DB7E0028C5DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		5CBE395A13E9DB7E0028C5DE /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		5CBE395B13E9DB7E0028C5DE /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		5CBE395E13E9DB7E0028C5DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		5CFB3E2913F2A32A0093A639 /* GroupDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupDetailViewController.h; sourceTree = "<group>"; };
+		5CFB3E2A13F2A32A0093A639 /* GroupDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupDetailViewController.m; sourceTree = "<group>"; };
+		5CFB3E2B13F2A32A0093A639 /* GroupDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupDetailViewController.xib; sourceTree = "<group>"; };
+		5CFB3E2F13F2AA9D0093A639 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		5CFB3E3113F2B2300093A639 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		5CFB3E3313F2FEF90093A639 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CBE393913E9DB7E0028C5DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFB3E3413F2FEF90093A639 /* MessageUI.framework in Frameworks */,
+				5CFB3E3213F2B2300093A639 /* AddressBook.framework in Frameworks */,
+				5CFB3E3013F2AA9D0093A639 /* AddressBookUI.framework in Frameworks */,
+				5CBE394113E9DB7E0028C5DE /* UIKit.framework in Frameworks */,
+				5CBE394313E9DB7E0028C5DE /* Foundation.framework in Frameworks */,
+				5CBE394513E9DB7E0028C5DE /* CoreGraphics.framework in Frameworks */,
+				5CBE394713E9DB7E0028C5DE /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CB9E06513F314AE002FFE67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5CB9E06213F31495002FFE67 /* Member.h */,
+				5CB9E06313F31495002FFE67 /* Member.m */,
+				5CB9E05E13F31494002FFE67 /* Group.h */,
+				5CB9E05F13F31494002FFE67 /* Group.m */,
+				5C22F8DF13F441ED000DA319 /* GroupMessage.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5CB9E07313F33FAF002FFE67 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5CBE395A13E9DB7E0028C5DE /* RootViewController.h */,
+				5CBE395B13E9DB7E0028C5DE /* RootViewController.m */,
+				5CBE395D13E9DB7E0028C5DE /* RootViewController.xib */,
+				5CFB3E2913F2A32A0093A639 /* GroupDetailViewController.h */,
+				5CFB3E2A13F2A32A0093A639 /* GroupDetailViewController.m */,
+				5CFB3E2B13F2A32A0093A639 /* GroupDetailViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5CBE393113E9DB7E0028C5DE = {
+			isa = PBXGroup;
+			children = (
+				5CBE394813E9DB7E0028C5DE /* GroupMessage */,
+				5CBE393F13E9DB7E0028C5DE /* Frameworks */,
+				5CBE393D13E9DB7E0028C5DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CBE393D13E9DB7E0028C5DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CBE393C13E9DB7E0028C5DE /* GroupMessage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CBE393F13E9DB7E0028C5DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CFB3E3313F2FEF90093A639 /* MessageUI.framework */,
+				5CFB3E3113F2B2300093A639 /* AddressBook.framework */,
+				5CFB3E2F13F2AA9D0093A639 /* AddressBookUI.framework */,
+				5CBE394013E9DB7E0028C5DE /* UIKit.framework */,
+				5CBE394213E9DB7E0028C5DE /* Foundation.framework */,
+				5CBE394413E9DB7E0028C5DE /* CoreGraphics.framework */,
+				5CBE394613E9DB7E0028C5DE /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CBE394813E9DB7E0028C5DE /* GroupMessage */ = {
+			isa = PBXGroup;
+			children = (
+				5CBE395113E9DB7E0028C5DE /* GroupMessageAppDelegate.h */,
+				5CBE395213E9DB7E0028C5DE /* GroupMessageAppDelegate.m */,
+				5CBE395713E9DB7E0028C5DE /* MainWindow.xib */,
+				5CB9E07313F33FAF002FFE67 /* Controllers */,
+				5CB9E06513F314AE002FFE67 /* Model */,
+				5CBE394913E9DB7E0028C5DE /* Supporting Files */,
+			);
+			path = GroupMessage;
+			sourceTree = "<group>";
+		};
+		5CBE394913E9DB7E0028C5DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CBE394A13E9DB7E0028C5DE /* GroupMessage-Info.plist */,
+				5CBE394B13E9DB7E0028C5DE /* InfoPlist.strings */,
+				5CBE394E13E9DB7E0028C5DE /* main.m */,
+				5CBE395013E9DB7E0028C5DE /* GroupMessage-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CBE393B13E9DB7E0028C5DE /* GroupMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CBE396213E9DB7E0028C5DE /* Build configuration list for PBXNativeTarget "GroupMessage" */;
+			buildPhases = (
+				5CBE393813E9DB7E0028C5DE /* Sources */,
+				5CBE393913E9DB7E0028C5DE /* Frameworks */,
+				5CBE393A13E9DB7E0028C5DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroupMessage;
+			productName = GroupMessage;
+			productReference = 5CBE393C13E9DB7E0028C5DE /* GroupMessage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CBE393313E9DB7E0028C5DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Cordax Software LLC";
+			};
+			buildConfigurationList = 5CBE393613E9DB7E0028C5DE /* Build configuration list for PBXProject "GroupMessage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5CBE393113E9DB7E0028C5DE;
+			productRefGroup = 5CBE393D13E9DB7E0028C5DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CBE393B13E9DB7E0028C5DE /* GroupMessage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CBE393A13E9DB7E0028C5DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CBE394D13E9DB7E0028C5DE /* InfoPlist.strings in Resources */,
+				5CBE395913E9DB7E0028C5DE /* MainWindow.xib in Resources */,
+				5CBE395F13E9DB7E0028C5DE /* RootViewController.xib in Resources */,
+				5CFB3E2D13F2A32A0093A639 /* GroupDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CBE393813E9DB7E0028C5DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CBE394F13E9DB7E0028C5DE /* main.m in Sources */,
+				5CBE395313E9DB7E0028C5DE /* GroupMessageAppDelegate.m in Sources */,
+				5CBE395C13E9DB7E0028C5DE /* RootViewController.m in Sources */,
+				5CFB3E2C13F2A32A0093A639 /* GroupDetailViewController.m in Sources */,
+				5CB9E06013F31494002FFE67 /* Group.m in Sources */,
+				5CB9E06413F31495002FFE67 /* Member.m in Sources */,
+				5C22F8E113F441ED000DA319 /* GroupMessage.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CBE394B13E9DB7E0028C5DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CBE394C13E9DB7E0028C5DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5CBE395713E9DB7E0028C5DE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CBE395813E9DB7E0028C5DE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		5CBE395D13E9DB7E0028C5DE /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CBE395E13E9DB7E0028C5DE /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CBE396013E9DB7E0028C5DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CBE396113E9DB7E0028C5DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CBE396313E9DB7E0028C5DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GroupMessage/GroupMessage-Prefix.pch";
+				INFOPLIST_FILE = "GroupMessage/GroupMessage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CBE396413E9DB7E0028C5DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GroupMessage/GroupMessage-Prefix.pch";
+				INFOPLIST_FILE = "GroupMessage/GroupMessage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CBE393613E9DB7E0028C5DE /* Build configuration list for PBXProject "GroupMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CBE396013E9DB7E0028C5DE /* Debug */,
+				5CBE396113E9DB7E0028C5DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CBE396213E9DB7E0028C5DE /* Build configuration list for PBXNativeTarget "GroupMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CBE396313E9DB7E0028C5DE /* Debug */,
+				5CBE396413E9DB7E0028C5DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5C22F8DF13F441ED000DA319 /* GroupMessage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5C22F8E013F441ED000DA319 /* GroupMessage.xcdatamodel */,
+			);
+			currentVersion = 5C22F8E013F441ED000DA319 /* GroupMessage.xcdatamodel */;
+			path = GroupMessage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5CBE393313E9DB7E0028C5DE /* Project object */;
+}

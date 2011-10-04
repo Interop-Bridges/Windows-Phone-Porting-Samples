@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainlayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <com.google.android.maps.MapView
+        android:id="@+id/map_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:apiKey="enter your api key here!" />
+        
+    <!-- enter your maps api key above! -->
+        
+	<TextView
+		android:id="@+id/distance_text"
+		android:layout_width="fill_parent"
+		android:layout_height="40dip"
+		android:layout_alignParentTop="true"
+		android:gravity="center_vertical|center_horizontal"
+		android:layout_marginTop="20dip"
+		android:textColor="#ffffff"
+		android:textSize="20sp"
+		android:textStyle="bold"
+		android:background="#77000000"
+		android:text="@string/pin_hint" />
+</RelativeLayout>

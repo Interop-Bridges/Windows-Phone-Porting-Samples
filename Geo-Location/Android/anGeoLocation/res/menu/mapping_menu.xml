@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:id="@+id/center_me"
+		android:icon="@drawable/ic_menu_mylocation"
+		android:title="@string/center_on_me" />
+	<item
+		android:id="@+id/center_pin"
+		android:icon="@drawable/ic_menu_compass"
+		android:title="@string/center_on_pin" />
+</menu>

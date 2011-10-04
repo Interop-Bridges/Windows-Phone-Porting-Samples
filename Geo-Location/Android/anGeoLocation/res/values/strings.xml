@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">anGeoLocation</string>
+    <string name="center_on_me">Center on Me</string>
+    <string name="center_on_pin">Center on Pin</string>
+    <string name="pin_hint">Press and hold to place pin.</string>
+</resources>

@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E5518C513F444E600E13DC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5518C413F444E600E13DC5 /* UIKit.framework */; };
+		1E5518C713F444E600E13DC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5518C613F444E600E13DC5 /* Foundation.framework */; };
+		1E5518C913F444E600E13DC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5518C813F444E600E13DC5 /* CoreGraphics.framework */; };
+		1E5518CF13F444E600E13DC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E5518CD13F444E600E13DC5 /* InfoPlist.strings */; };
+		1E5518D213F444E600E13DC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5518D113F444E600E13DC5 /* main.m */; };
+		1E5518D513F444E600E13DC5 /* AdvertisementsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5518D413F444E600E13DC5 /* AdvertisementsAppDelegate.m */; };
+		1E5518D813F444E600E13DC5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E5518D613F444E600E13DC5 /* MainWindow.xib */; };
+		1E5518E713F4451F00E13DC5 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5518E613F4451F00E13DC5 /* iAd.framework */; };
+		1E5518EC13F4457F00E13DC5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5518EA13F4457F00E13DC5 /* MainViewController.m */; };
+		1E5518ED13F4457F00E13DC5 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E5518EB13F4457F00E13DC5 /* MainViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E5518C013F444E600E13DC5 /* Advertisements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Advertisements.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E5518C413F444E600E13DC5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1E5518C613F444E600E13DC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1E5518C813F444E600E13DC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1E5518CC13F444E600E13DC5 /* Advertisements-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Advertisements-Info.plist"; sourceTree = "<group>"; };
+		1E5518CE13F444E600E13DC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1E5518D013F444E600E13DC5 /* Advertisements-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Advertisements-Prefix.pch"; sourceTree = "<group>"; };
+		1E5518D113F444E600E13DC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E5518D313F444E600E13DC5 /* AdvertisementsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvertisementsAppDelegate.h; sourceTree = "<group>"; };
+		1E5518D413F444E600E13DC5 /* AdvertisementsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvertisementsAppDelegate.m; sourceTree = "<group>"; };
+		1E5518D713F444E600E13DC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1E5518E613F4451F00E13DC5 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		1E5518E913F4457F00E13DC5 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1E5518EA13F4457F00E13DC5 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1E5518EB13F4457F00E13DC5 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E5518BD13F444E600E13DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5518E713F4451F00E13DC5 /* iAd.framework in Frameworks */,
+				1E5518C513F444E600E13DC5 /* UIKit.framework in Frameworks */,
+				1E5518C713F444E600E13DC5 /* Foundation.framework in Frameworks */,
+				1E5518C913F444E600E13DC5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E5518B513F444E600E13DC5 = {
+			isa = PBXGroup;
+			children = (
+				1E5518CA13F444E600E13DC5 /* Advertisements */,
+				1E5518C313F444E600E13DC5 /* Frameworks */,
+				1E5518C113F444E600E13DC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E5518C113F444E600E13DC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E5518C013F444E600E13DC5 /* Advertisements.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E5518C313F444E600E13DC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E5518E613F4451F00E13DC5 /* iAd.framework */,
+				1E5518C413F444E600E13DC5 /* UIKit.framework */,
+				1E5518C613F444E600E13DC5 /* Foundation.framework */,
+				1E5518C813F444E600E13DC5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E5518CA13F444E600E13DC5 /* Advertisements */ = {
+			isa = PBXGroup;
+			children = (
+				1E5518E913F4457F00E13DC5 /* MainViewController.h */,
+				1E5518EA13F4457F00E13DC5 /* MainViewController.m */,
+				1E5518EB13F4457F00E13DC5 /* MainViewController.xib */,
+				1E5518D313F444E600E13DC5 /* AdvertisementsAppDelegate.h */,
+				1E5518D413F444E600E13DC5 /* AdvertisementsAppDelegate.m */,
+				1E5518D613F444E600E13DC5 /* MainWindow.xib */,
+				1E5518CB13F444E600E13DC5 /* Supporting Files */,
+			);
+			path = Advertisements;
+			sourceTree = "<group>";
+		};
+		1E5518CB13F444E600E13DC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E5518CC13F444E600E13DC5 /* Advertisements-Info.plist */,
+				1E5518CD13F444E600E13DC5 /* InfoPlist.strings */,
+				1E5518D013F444E600E13DC5 /* Advertisements-Prefix.pch */,
+				1E5518D113F444E600E13DC5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E5518BF13F444E600E13DC5 /* Advertisements */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E5518DB13F444E600E13DC5 /* Build configuration list for PBXNativeTarget "Advertisements" */;
+			buildPhases = (
+				1E5518BC13F444E600E13DC5 /* Sources */,
+				1E5518BD13F444E600E13DC5 /* Frameworks */,
+				1E5518BE13F444E600E13DC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Advertisements;
+			productName = Advertisements;
+			productReference = 1E5518C013F444E600E13DC5 /* Advertisements.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E5518B713F444E600E13DC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Knuckleheads Inc.";
+			};
+			buildConfigurationList = 1E5518BA13F444E600E13DC5 /* Build configuration list for PBXProject "Advertisements" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1E5518B513F444E600E13DC5;
+			productRefGroup = 1E5518C113F444E600E13DC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E5518BF13F444E600E13DC5 /* Advertisements */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E5518BE13F444E600E13DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5518CF13F444E600E13DC5 /* InfoPlist.strings in Resources */,
+				1E5518D813F444E600E13DC5 /* MainWindow.xib in Resources */,
+				1E5518ED13F4457F00E13DC5 /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E5518BC13F444E600E13DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5518D213F444E600E13DC5 /* main.m in Sources */,
+				1E5518D513F444E600E13DC5 /* AdvertisementsAppDelegate.m in Sources */,
+				1E5518EC13F4457F00E13DC5 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E5518CD13F444E600E13DC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E5518CE13F444E600E13DC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1E5518D613F444E600E13DC5 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E5518D713F444E600E13DC5 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E5518D913F444E600E13DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E5518DA13F444E600E13DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1E5518DC13F444E600E13DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Advertisements/Advertisements-Prefix.pch";
+				INFOPLIST_FILE = "Advertisements/Advertisements-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1E5518DD13F444E600E13DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Advertisements/Advertisements-Prefix.pch";
+				INFOPLIST_FILE = "Advertisements/Advertisements-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E5518BA13F444E600E13DC5 /* Build configuration list for PBXProject "Advertisements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5518D913F444E600E13DC5 /* Debug */,
+				1E5518DA13F444E600E13DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E5518DB13F444E600E13DC5 /* Build configuration list for PBXNativeTarget "Advertisements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5518DC13F444E600E13DC5 /* Debug */,
+				1E5518DD13F444E600E13DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E5518B713F444E600E13DC5 /* Project object */;
+}

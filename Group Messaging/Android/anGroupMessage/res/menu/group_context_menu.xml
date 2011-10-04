@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:id="@+id/remove_group"
+		android:title="@string/remove_group" />
+	<item
+		android:id="@+id/edit_group"
+		android:title="@string/edit_group" />
+</menu>

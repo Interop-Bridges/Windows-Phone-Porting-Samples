@@ -1,0 +1,55 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="GeoLocation.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True" xmlns:my="clr-namespace:Microsoft.Phone.Controls.Maps;assembly=Microsoft.Phone.Controls.Maps">
+
+	<phone:PhoneApplicationPage.Resources>
+		<ControlTemplate x:Key="MePushpinTemplate" TargetType="my:Pushpin">
+			<Border Margin="-10,-10,0,0" BorderBrush="#FFFFFFFF" BorderThickness="1" Background="#FF000000" Padding="4">
+				<Border.RenderTransform>
+					<RotateTransform Angle="45" />
+				</Border.RenderTransform>
+				<Ellipse Fill="{StaticResource PhoneAccentBrush}" HorizontalAlignment="Center" VerticalAlignment="Center" Width="12" Height="12"/>
+			</Border>
+		</ControlTemplate>
+		<ControlTemplate x:Key="PinPushpinTemplate" TargetType="my:Pushpin">
+			<Grid Margin="-18,0,0,0">
+				<Image Source="/Images/Pushpin.png" Width="36" />
+			</Grid>
+		</ControlTemplate>
+	</phone:PhoneApplicationPage.Resources>
+	
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+    	<Grid.RowDefinitions>
+    		<RowDefinition Height="72"/>
+    		<RowDefinition Height="*"/>
+    	</Grid.RowDefinitions>
+		<my:Map x:Name="BingMap" Tap="BingMap_Tap" CredentialsProvider="{Binding CredentialsProvider}"
+		        CopyrightVisibility="Collapsed" LogoVisibility="Collapsed" ZoomLevel="{Binding Zoom, Mode=TwoWay}"
+		        Center="{Binding Center, Mode=TwoWay}" Grid.RowSpan="2">
+			<my:Map.Mode>
+				<my:AerialMode ShouldDisplayLabels="True" />
+			</my:Map.Mode>
+		</my:Map>
+		<Rectangle Fill="{StaticResource PhoneBackgroundBrush}" Opacity="0.75" />
+		<TextBlock Text="{Binding Distance, StringFormat='Distance: \{0:n2\} mi.'}" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="48" />
+	</Grid>
+ 
+    <phone:PhoneApplicationPage.ApplicationBar>
+		<shell:ApplicationBar IsVisible="True" Opacity="0.75" BackgroundColor="{StaticResource PhoneBackgroundColor}">
+			<shell:ApplicationBarIconButton IconUri="/Images/appbar.maps.me.png" Text="me" Click="ApplicationBarCenterOnMeButton_Click"/>
+			<shell:ApplicationBarIconButton IconUri="/Images/appbar.maps.pushpin.png" Text="pin" Click="ApplicationBarCenterOnPinButton_Click"/>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>

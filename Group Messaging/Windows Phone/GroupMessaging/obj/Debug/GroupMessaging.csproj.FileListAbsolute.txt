@@ -1,0 +1,14 @@
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GroupMessaging\GroupMessaging\Bin\Debug\ApplicationIcon.png
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GroupMessaging\GroupMessaging\Bin\Debug\Background.png
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GroupMessaging\GroupMessaging\Bin\Debug\GroupMessaging.dll
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GroupMessaging\GroupMessaging\Bin\Debug\GroupMessaging.pdb
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GroupMessaging\GroupMessaging\Bin\Debug\AppManifest.xaml
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GroupMessaging\GroupMessaging\Bin\Debug\GroupMessaging.xap
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GroupMessaging\GroupMessaging\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GroupMessaging\GroupMessaging\obj\Debug\App.g.i.cs
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GroupMessaging\GroupMessaging\obj\Debug\Views\GroupListView.g.i.cs
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GroupMessaging\GroupMessaging\obj\Debug\Views\GroupView.g.i.cs
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GroupMessaging\GroupMessaging\obj\Debug\GroupMessaging.g.resources
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GroupMessaging\GroupMessaging\obj\Debug\GroupMessaging.dll
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GroupMessaging\GroupMessaging\obj\Debug\GroupMessaging.pdb
+C:\Users\a-cobroo\Desktop\MicrosoftSampleApplications-WP7\Application Idea List\GroupMessaging\GroupMessaging\obj\Debug\XapCacheFile.xml

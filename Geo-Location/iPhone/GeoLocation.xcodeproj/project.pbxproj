@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E55190613F4468C00E13DC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E55190513F4468C00E13DC5 /* UIKit.framework */; };
+		1E55190813F4468C00E13DC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E55190713F4468C00E13DC5 /* Foundation.framework */; };
+		1E55190A13F4468C00E13DC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E55190913F4468C00E13DC5 /* CoreGraphics.framework */; };
+		1E55191013F4468C00E13DC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E55190E13F4468C00E13DC5 /* InfoPlist.strings */; };
+		1E55191313F4468C00E13DC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E55191213F4468C00E13DC5 /* main.m */; };
+		1E55191613F4468C00E13DC5 /* GeoLocationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E55191513F4468C00E13DC5 /* GeoLocationAppDelegate.m */; };
+		1E55191913F4468C00E13DC5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E55191713F4468C00E13DC5 /* MainWindow.xib */; };
+		1E55192A13F4472100E13DC5 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E55192813F4472100E13DC5 /* MapViewController.m */; };
+		1E55192B13F4472100E13DC5 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E55192913F4472100E13DC5 /* MapViewController.xib */; };
+		1E55192E13F4477500E13DC5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E55192D13F4477500E13DC5 /* MapKit.framework */; };
+		85A0D48014058A75006F22E9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A0D47F14058A75006F22E9 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E55190113F4468C00E13DC5 /* GeoLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E55190513F4468C00E13DC5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1E55190713F4468C00E13DC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1E55190913F4468C00E13DC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1E55190D13F4468C00E13DC5 /* GeoLocation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoLocation-Info.plist"; sourceTree = "<group>"; };
+		1E55190F13F4468C00E13DC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1E55191113F4468C00E13DC5 /* GeoLocation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeoLocation-Prefix.pch"; sourceTree = "<group>"; };
+		1E55191213F4468C00E13DC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E55191413F4468C00E13DC5 /* GeoLocationAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoLocationAppDelegate.h; sourceTree = "<group>"; };
+		1E55191513F4468C00E13DC5 /* GeoLocationAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoLocationAppDelegate.m; sourceTree = "<group>"; };
+		1E55191813F4468C00E13DC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1E55192713F4472100E13DC5 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		1E55192813F4472100E13DC5 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		1E55192913F4472100E13DC5 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		1E55192D13F4477500E13DC5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		85A0D47F14058A75006F22E9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E5518FE13F4468C00E13DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E55192E13F4477500E13DC5 /* MapKit.framework in Frameworks */,
+				1E55190613F4468C00E13DC5 /* UIKit.framework in Frameworks */,
+				1E55190813F4468C00E13DC5 /* Foundation.framework in Frameworks */,
+				1E55190A13F4468C00E13DC5 /* CoreGraphics.framework in Frameworks */,
+				85A0D48014058A75006F22E9 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E5518F613F4468C00E13DC5 = {
+			isa = PBXGroup;
+			children = (
+				1E55190B13F4468C00E13DC5 /* GeoLocation */,
+				1E55190413F4468C00E13DC5 /* Frameworks */,
+				1E55190213F4468C00E13DC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E55190213F4468C00E13DC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E55190113F4468C00E13DC5 /* GeoLocation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E55190413F4468C00E13DC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E55192D13F4477500E13DC5 /* MapKit.framework */,
+				1E55190513F4468C00E13DC5 /* UIKit.framework */,
+				1E55190713F4468C00E13DC5 /* Foundation.framework */,
+				1E55190913F4468C00E13DC5 /* CoreGraphics.framework */,
+				85A0D47F14058A75006F22E9 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E55190B13F4468C00E13DC5 /* GeoLocation */ = {
+			isa = PBXGroup;
+			children = (
+				1E55192713F4472100E13DC5 /* MapViewController.h */,
+				1E55192813F4472100E13DC5 /* MapViewController.m */,
+				1E55192913F4472100E13DC5 /* MapViewController.xib */,
+				1E55191413F4468C00E13DC5 /* GeoLocationAppDelegate.h */,
+				1E55191513F4468C00E13DC5 /* GeoLocationAppDelegate.m */,
+				1E55191713F4468C00E13DC5 /* MainWindow.xib */,
+				1E55190C13F4468C00E13DC5 /* Supporting Files */,
+			);
+			path = GeoLocation;
+			sourceTree = "<group>";
+		};
+		1E55190C13F4468C00E13DC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E55190D13F4468C00E13DC5 /* GeoLocation-Info.plist */,
+				1E55190E13F4468C00E13DC5 /* InfoPlist.strings */,
+				1E55191113F4468C00E13DC5 /* GeoLocation-Prefix.pch */,
+				1E55191213F4468C00E13DC5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E55190013F4468C00E13DC5 /* GeoLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E55191C13F4468C00E13DC5 /* Build configuration list for PBXNativeTarget "GeoLocation" */;
+			buildPhases = (
+				1E5518FD13F4468C00E13DC5 /* Sources */,
+				1E5518FE13F4468C00E13DC5 /* Frameworks */,
+				1E5518FF13F4468C00E13DC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoLocation;
+			productName = GeoLocation;
+			productReference = 1E55190113F4468C00E13DC5 /* GeoLocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E5518F813F4468C00E13DC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Knuckleheads Inc.";
+			};
+			buildConfigurationList = 1E5518FB13F4468C00E13DC5 /* Build configuration list for PBXProject "GeoLocation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1E5518F613F4468C00E13DC5;
+			productRefGroup = 1E55190213F4468C00E13DC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E55190013F4468C00E13DC5 /* GeoLocation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E5518FF13F4468C00E13DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E55191013F4468C00E13DC5 /* InfoPlist.strings in Resources */,
+				1E55191913F4468C00E13DC5 /* MainWindow.xib in Resources */,
+				1E55192B13F4472100E13DC5 /* MapViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E5518FD13F4468C00E13DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E55191313F4468C00E13DC5 /* main.m in Sources */,
+				1E55191613F4468C00E13DC5 /* GeoLocationAppDelegate.m in Sources */,
+				1E55192A13F4472100E13DC5 /* MapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E55190E13F4468C00E13DC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E55190F13F4468C00E13DC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1E55191713F4468C00E13DC5 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E55191813F4468C00E13DC5 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E55191A13F4468C00E13DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E55191B13F4468C00E13DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1E55191D13F4468C00E13DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoLocation/GeoLocation-Prefix.pch";
+				INFOPLIST_FILE = "GeoLocation/GeoLocation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1E55191E13F4468C00E13DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoLocation/GeoLocation-Prefix.pch";
+				INFOPLIST_FILE = "GeoLocation/GeoLocation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E5518FB13F4468C00E13DC5 /* Build configuration list for PBXProject "GeoLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E55191A13F4468C00E13DC5 /* Debug */,
+				1E55191B13F4468C00E13DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E55191C13F4468C00E13DC5 /* Build configuration list for PBXNativeTarget "GeoLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E55191D13F4468C00E13DC5 /* Debug */,
+				1E55191E13F4468C00E13DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E5518F813F4468C00E13DC5 /* Project object */;
+}
