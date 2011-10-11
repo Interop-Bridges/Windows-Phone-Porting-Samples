@@ -1,0 +1,61 @@
+﻿// --------------------------------------------------------------------
+// <copyright file="ToastMessage.cs" company="Microsoft Corp">
+// Copyright 2010 Microsoft Corp
+//  
+//  Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//  
+//  http://www.apache.org/licenses/LICENSE-2.0
+//  
+//  Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+// </copyright>
+// ---------------------------------------------------------------------
+namespace MsgHelperLib.Messages
+{
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+
+    /// <summary>
+    /// Helper class to create a toast message.
+    /// Uses a property Message to return the component of the toast notification.
+    /// </summary>
+    public class ToastMessage : PushMessage
+    {
+        /// <summary>
+        /// Initializes a new instance of the ToastMessage class.
+        /// </summary>
+        /// <param name="subscriptionName">The subscription name of the subscription to sent send the message to.</param>
+        /// <param name="toast">Text of the message.</param>
+        public ToastMessage(string subscriptionName, string toast)
+            : base(subscriptionName, (short)PushMessageType.Toast)
+        {
+            Message.Add("toast", toast);
+        }
+
+        /// <summary>
+        /// Initializes a new instance of the ToastMessage class.
+        /// </summary>
+        public ToastMessage()
+            : base()
+        {
+        }
+
+        /// <summary>
+        /// Gets the text of the message to be sent to the devices.
+        /// </summary>
+        public string Toast
+        {
+            get
+            {
+                return Message["toast"];
+            }
+        }
+    }
+}

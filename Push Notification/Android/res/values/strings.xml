@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Push Notifications</string>
+    <string name="hello">Hello World, PushNotifications!</string>
+    <string name="app_name">Push Notifications Sample</string>
+</resources>

@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "AzurePushMessages", "AzurePushMessages\AzurePushMessages.ccproj", "{414DD1F1-7BFE-4E1A-89B0-E1D84845A2C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApmWcfServiceWebRole", "APMWCFServiceWebRole\ApmWcfServiceWebRole.csproj", "{4FD38D0A-858E-483D-9FDF-C9153774F9BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsgHelperLib", "MsgHelperLib\MsgHelperLib.csproj", "{C3DBDA11-E1DB-481D-8FF1-9D3B474C6235}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApmWorkerRole", "APMWorkerRole\ApmWorkerRole.csproj", "{B87175B6-EC74-42D8-BB96-7337976603F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{414DD1F1-7BFE-4E1A-89B0-E1D84845A2C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414DD1F1-7BFE-4E1A-89B0-E1D84845A2C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414DD1F1-7BFE-4E1A-89B0-E1D84845A2C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414DD1F1-7BFE-4E1A-89B0-E1D84845A2C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FD38D0A-858E-483D-9FDF-C9153774F9BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD38D0A-858E-483D-9FDF-C9153774F9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD38D0A-858E-483D-9FDF-C9153774F9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD38D0A-858E-483D-9FDF-C9153774F9BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3DBDA11-E1DB-481D-8FF1-9D3B474C6235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3DBDA11-E1DB-481D-8FF1-9D3B474C6235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3DBDA11-E1DB-481D-8FF1-9D3B474C6235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3DBDA11-E1DB-481D-8FF1-9D3B474C6235}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B87175B6-EC74-42D8-BB96-7337976603F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B87175B6-EC74-42D8-BB96-7337976603F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B87175B6-EC74-42D8-BB96-7337976603F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B87175B6-EC74-42D8-BB96-7337976603F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

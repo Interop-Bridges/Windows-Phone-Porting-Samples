@@ -1,0 +1,6 @@
+﻿<%@ ServiceHost 
+    Language="C#" 
+    Debug="true" 
+    Service="ApmWcfServiceWebRole.WP7Device" 
+    CodeBehind="WP7Device.svc.cs" 
+    Factory="System.ServiceModel.Activation.WebServiceHostFactory"%>

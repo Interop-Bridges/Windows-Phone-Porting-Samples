@@ -1,0 +1,52 @@
+﻿<Window x:Class="PushMessageDataProvider.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="485" Width="633">
+    <Grid>
+        <TabControl Height="422" HorizontalAlignment="Left" Margin="12,12,0,0" Name="tabControl1" VerticalAlignment="Top" Width="556">
+            <TabItem Header="Add Subscription" Name="tabItem1">
+                <Grid>
+                    <TextBox Height="23" HorizontalAlignment="Left" Margin="85,38,0,0" Name="subNameTextBox" VerticalAlignment="Top" Width="120"  GotFocus="TxtboxGotFocus"  />
+                    <Button Content="Add" Height="23" HorizontalAlignment="Left" Margin="85,105,0,0" Name="button1" VerticalAlignment="Top" Width="75" Click="SubCreateBtnClick" />
+                    <TextBox Height="23" HorizontalAlignment="Left" Margin="85,71,0,0" Name="descTextBox" VerticalAlignment="Top" Width="346"  GotFocus="TxtboxGotFocus" />
+                    <TextBlock Height="23" HorizontalAlignment="Right" Margin="0,38,467,0" Name="textBlock1" Text="Name :" VerticalAlignment="Top" />
+                    <TextBlock Height="23" HorizontalAlignment="Right" Margin="0,70,470,0" Name="textBlock2" Text="Description :" VerticalAlignment="Top" />
+                    <TextBlock Height="23" HorizontalAlignment="Left" Margin="85,155,0,0" Name="statusTextBlock" Text="" VerticalAlignment="Top" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Send Message" Name="tabItem2" MouseUp="TabItem2MouseUp">
+                <Grid Height="367" Width="559">
+                    <ComboBox Height="23" HorizontalAlignment="Left" Margin="117,23,0,0" Name="subscriptionsComboBox" VerticalAlignment="Top" Width="120">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <ComboBoxItem Content="{Binding Name}"></ComboBoxItem>
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox> 
+                <TextBlock Height="23" HorizontalAlignment="Right" Margin="0,23,466,0" Name="textBlock5" Text="Subscription :" VerticalAlignment="Top" Width="70" />
+                    <GroupBox Header="Message" HorizontalAlignment="Left" Margin="15,53,0,0" Name="groupBox1" Width="521" Height="312" VerticalAlignment="Top">
+                        <Grid Height="270" Width="512">
+                            <TextBox Height="23" HorizontalAlignment="Right" Margin="0,50,58,0" Name="msgTxtBox" VerticalAlignment="Top" Width="346" GotFocus="TxtboxGotFocus" />
+                            <TextBlock Height="23" HorizontalAlignment="Left" Margin="7,50,0,0" Name="msgTxtBlk" Text="Text :" VerticalAlignment="Top" Width="70" />
+                            <TextBlock Height="23" HorizontalAlignment="Left" Margin="6,79,0,0" Name="countTxtBlk" Text="Badge / Count :" VerticalAlignment="Top" Width="93" />
+                            <TextBox Height="23" HorizontalAlignment="Right" Margin="0,79,343,0" Name="countTxtBox" VerticalAlignment="Top" Width="61" GotFocus="TxtboxGotFocus" />
+                            <TextBlock Height="23" HorizontalAlignment="Left" Margin="6,110,0,0" Name="soundTxtBlk" Text="Sound :" VerticalAlignment="Top" Width="93" />
+                            <TextBox Height="23" HorizontalAlignment="Right" Margin="0,110,278,0" Name="soundTxtBox" VerticalAlignment="Top" Width="126" GotFocus="TxtboxGotFocus"  />
+                            <TextBlock Height="23" HorizontalAlignment="Left" Margin="6,143,0,0" Name="imgTxtBlk" Text="Image :" VerticalAlignment="Top" Width="93" />
+                            <TextBox Height="23" HorizontalAlignment="Right" Margin="0,143,278,0" Name="imgTxtBox" VerticalAlignment="Top" Width="126" GotFocus="TxtboxGotFocus" />
+                            <RadioButton Content="Toast" Height="16" HorizontalAlignment="Left" Margin="114,14,0,0" Name="toastBtn" Checked="ToastBtn_Checked" VerticalAlignment="Top" />
+                            <RadioButton Content="Tile" Height="16" HorizontalAlignment="Left" Margin="177,14,0,0" Name="tileBtn" Checked="TileBtn_Checked" VerticalAlignment="Top" />
+                            <RadioButton Content="Raw" Height="16" HorizontalAlignment="Left" Margin="229,14,0,0" Name="rawBtn" Checked="RawBtn_Checked" VerticalAlignment="Top" />
+                            <RadioButton Content="iOS" Height="16" HorizontalAlignment="Left" Margin="291,14,0,0" Name="iOSBtn" Checked="iOSBtn_Checked" VerticalAlignment="Top" />
+                            <RadioButton Content="Common" Height="16" HorizontalAlignment="Left" Margin="352,14,0,0" Name="commonBtn" Checked="commonBtn_Checked" VerticalAlignment="Top"  />
+                            <TextBlock Height="23" Margin="0,14,428,0" Name="textBlock3" Text="Type :" VerticalAlignment="Top" Width="70" HorizontalAlignment="Right" />
+                            <Button Content="Send" Height="23" HorizontalAlignment="Left" Margin="10,176,0,0" Name="sendBtn" VerticalAlignment="Top" Width="105"  Click="Button2_Click"/>
+                            <Label Content="" Height="28" HorizontalAlignment="Left" Margin="10,222,0,0" Name="msgStatusLbl" VerticalAlignment="Top" />
+                        </Grid>
+                    </GroupBox>
+                    <Button Content="Delete" Height="23" HorizontalAlignment="Left" Margin="325,23,0,0" Name="buttonDelete" VerticalAlignment="Top" Width="105" Click="ButtonDelete_Click" />
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

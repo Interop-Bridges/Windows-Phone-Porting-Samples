@@ -1,0 +1,6 @@
+﻿<%@ ServiceHost 
+    Language="C#" 
+    Debug="true" 
+    Service="ApmWcfServiceWebRole.Push" 
+    CodeBehind="Push.svc.cs" 
+    Factory="System.ServiceModel.Activation.WebServiceHostFactory"%>
